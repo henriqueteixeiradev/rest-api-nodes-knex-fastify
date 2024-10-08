@@ -81,3 +81,8 @@ Ele é necessário para que o TypeScript saiba como tipar o JSX.
 ```bash
 pnpm add tsx -D
 ```
+## Criação de uma nova migration knex
+
+```bash
+npx knex migrate:make nome_da_migration
+```
