@@ -1,7 +1,9 @@
+
 import fastify from 'fastify';
 import { database } from './config/database.config';
+import { env } from './env';
 
-const PORT = 3333;
+
 
 const app = fastify();
 
@@ -12,7 +14,7 @@ app.get('/', async () => {
 
 app
     .listen({
-        port: PORT,
+        port: env.PORT, 
     })
     .then(() => {
         console.log('Server is running on http://localhost:3333');
