@@ -98,3 +98,17 @@ npx knex migrate:latest
 ```bash
 npx knex migrate:rollback
 ```
+
+## Instalando Fastify Cookies
+
+## O que ele faz?
+
+O Fastify Cookies é um plugin para o Fastify que facilita a manipulação de cookies.
+
+## Porque é importante?
+
+Ele é necessário para que o Fastify possa manipular cookies.
+
+```bash
+pnpm add @fastify/cookie
+```
