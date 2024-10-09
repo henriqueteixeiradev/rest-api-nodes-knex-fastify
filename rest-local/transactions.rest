@@ -2,7 +2,17 @@ POST http://localhost:3333/transactions HTTP/1.1
 content-type: application/json
 
 {
-    "title": "Freelancer",
+    "title": "Bico",
     "amount": 8000,
     "type": "credit"
 }
+
+### ---------------------------------------------
+
+GET http://localhost:3333/transactions HTTP/1.1
+content-type: application/json
+
+### ---------------------------------------------
+
+GET http://localhost:3333/transactions/59efaa30-cbcb-43d2-9790-3e0984d9be84 HTTP/1.1
+content-type: application/json
