@@ -7,6 +7,11 @@ import cookie from '@fastify/cookie';
 
 const app = fastify();
 
+app.addHook('onRequest', async (request) => {
+    console.log(`onRequest hook: ${request.method} ${request.url}`);
+});
+
+
 app.register(cookie);
 
 app.register(transactionsRoutes, {
