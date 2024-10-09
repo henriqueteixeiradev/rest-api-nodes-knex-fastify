@@ -86,3 +86,15 @@ pnpm add tsx -D
 ```bash
 npx knex migrate:make nome_da_migration
 ```
+
+## Execução de todas as migrations
+
+```bash
+npx knex migrate:latest
+```
+
+## Desfazer a última migração
+
+```bash
+npx knex migrate:rollback
+```
