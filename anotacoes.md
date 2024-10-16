@@ -112,3 +112,17 @@ Ele é necessário para que o Fastify possa manipular cookies.
 ```bash
 pnpm add @fastify/cookie
 ```
+
+## Intalando o Vitest para testes
+
+## O que ele faz?
+
+O Vitest é um framework de testes para Node.js.
+
+## Porque é importante?
+
+Ele é necessário para que possamos testar o nosso código.
+
+```bash
+pnpm add vitest -D
+```
